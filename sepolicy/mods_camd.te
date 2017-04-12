@@ -11,4 +11,4 @@ allow mods_camd sysfs_mods_camd:dir rw_dir_perms;
 allow mods_camd sysfs:file { getattr read write };
 allow mods_camd sysfs:file { getattr open read write };
 
-allow mods_camd mods_camd_device:chr_file {getattr ioctl open read write };
+allow mods_camd mot_camera_ext_device:chr_file {getattr ioctl open read write };
