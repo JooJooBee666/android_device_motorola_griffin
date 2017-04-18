@@ -299,3 +299,7 @@ PRODUCT_PACKAGES += \
    ebtables \
    ethertypes \
    libebtc
+
+#Mods
+PRODUCT_PACKAGES += \
+   BatteryMod
